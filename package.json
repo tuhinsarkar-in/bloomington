@@ -45,3 +45,25 @@
     "typescript": "^5"
   }
 }
+{
+  "dependencies": {
+    // Remove this line:
+    "react-lottie": "^1.2.4",
+    
+    // Add these replacements:
+    "lottie-react": "^3.3.2",
+    "core-js": "^3.35.0",
+    "uuid": "^9.0.1",
+    "debug": "^4.3.4"
+  },
+  "devDependencies": {
+    // Update these to exact versions:
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.4",
+    "typescript": "5.3.3"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  }
+}
